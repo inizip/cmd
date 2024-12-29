@@ -74,8 +74,8 @@ install_theme() {
     fi
     cd /var/www/pterodactyl || exit
     if [ ! -f "indolife.zip" ]; then
-        git clone https://raw.githubusercontent.com/inizip/bukutulis/main/indolife.zip
-        cd  
+        git clone https://github.com/inizip/bukutulis.git
+        cd  bukutulis
         sudo mv indolife.zip /var/www/pterodactyl
         cd /var/www/pterodactyl
     fi
