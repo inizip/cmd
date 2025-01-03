@@ -21,6 +21,9 @@ show_animation() {
     echo -e "=======================================${RESET}"
     sleep 0.5
     echo ""
+  echo -e "${GREEN}Hubungi kami: ${BOLD}wa.me/6285692651794 (IndoLifeBusiness)${RESET}"
+    sleep 0.5
+    echo ""
     echo -e "${YELLOW}>> Loading...${RESET}"
     sleep 0.5
     echo -e "${GREEN}>> Preparing the script...${RESET}"
