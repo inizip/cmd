@@ -31,7 +31,20 @@ show_animation() {
     echo -e "${BLUE}>> Ready to go!${RESET}"
     sleep 1
 }
-
+# Fungsi animasi keluar
+show_closing_animation() {
+    clear
+    echo -e "${CYAN}${BOLD}======================================="
+    echo -e "              Closing...              "
+    echo -e "=======================================${RESET}"
+    sleep 0.5
+    echo -e "${GREEN}Terima kasih telah menggunakan script ini.${RESET}"
+    sleep 1
+    echo -e "${YELLOW}© IndoLife${RESET}"
+    sleep 1
+    echo -e "${BLUE}See you next time!${RESET}"
+    sleep 1
+}
 # Fungsi untuk menginstal Node.js dan dependensi dasar
 install_node() {
     echo -e "${CYAN}>> INSTALL NODE 20 DAN KEY <<${RESET}"
