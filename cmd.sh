@@ -218,9 +218,11 @@ while true; do
         reinstall_blueprint
         ;;           
     16)
-        show_closing_animation
-        break
-        ;;
+    show_closing_animation
+    sleep 2
+    clear
+    exit 0
+    ;;
     *)
         echo -e "${RED}Pilihan tidak valid, coba lagi.${RESET}"
         ;;
