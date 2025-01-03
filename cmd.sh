@@ -218,7 +218,7 @@ while true; do
         reinstall_blueprint
         ;;           
     16)
-        echo -e "${RED}Keluar dari program.${RESET}"
+        show_closing_animation
         break
         ;;
     *)
