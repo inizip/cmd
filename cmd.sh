@@ -17,7 +17,7 @@ show_animation() {
     clear
     echo -e "${CYAN}${BOLD}======================================="
     echo -e "          Auto Install Theme Premium           "
-    echo -e "                 by Indolife              "
+    echo -e "                 by Indolife 3.3            "
     echo -e "=======================================${RESET}"
     sleep 0.5
     echo ""
